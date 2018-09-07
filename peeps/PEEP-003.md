@@ -42,6 +42,6 @@ satisifies constraints, for each dependency.
 The version selection strategy will be set by an environment variable,
 `PIPENV_SELECTION_STRATEGY`.
 
-The options for `PIPENV_SELECT_STRATEGY` will be:
+The options for `PIPENV_SELECTION_STRATEGY` will be:
 - `maximal`, the existing dependency resoultion. This will be the default value.
 - `minimal`
