@@ -21,15 +21,21 @@ The available versions for `eggs` ar `[1.0, 2.0, 2.5, 3.0]`
 
 Maximal version selection would choose the greatest available, which satisifies
 constraints, for each dependency:
-- `ham` :: `1.2`
-- `eggs` :: `2.5`
+
+| dependency | version |
+|------------|---------|
+| `ham`      |  `1.2`  |
+| `eggs`    | `2.5`   |
 
 ### Minimal
 
 Minimal version selection would choose the least available for each project, which
 satisifies constraints, for each dependency.
-- `ham` :: `1.1`
-- `eggs` :: `2.0`
+
+| dependency | version |
+|------------|---------|
+| `ham`      | `1.1`   |
+| `eggs`     | `2.0`   |
 
 ## Configuration
 
